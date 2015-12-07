@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="ad.size" content="width=160,height=600"><!--AD SIZE-->
+<title>PNC_Virtual Wallet_160x600</title>
+
+  <script src="TweenLite.min.js"></script>
+  <script src="EasePack.min.js"></script>
+  <script src="CSSPlugin.min.js"></script>
+
+<link href="pnc_virtualwallet.css" rel="stylesheet" type="text/css">
+<!--DOUBLE-CLICK ENABLER-->
+<script src="http://s0.2mdn.net/ads/studio/Enabler.js"></script>
+
+<script>
+
+if (Enabler.isInitialized()) {
+  init();
+} else {
+  Enabler.addEventListener(studio.events.StudioEvent.INIT, init);
+}
+
+// Runs when Enabler is ready.
+function init() {
+  if (Enabler.isPageLoaded()) {
+    politeInit();
+  } else {
+    Enabler.addEventListener(studio.events.StudioEvent.PAGE_LOADED, politeInit);
+  }
+};
+
+// Runs when the page is completely loaded.     
+function politeInit(){      
+  // Add your code to load creative assets or begin creative animation.
+ctr.init();
+
+};
+
+</script>
+
+<!--SIZMEK ENABLER-->
+<!--<script type="text/javascript" src="http://ds.serving-sys.com/BurstingScript/EBLoader.js"></script>-->
+
+<!--HTML5 SHIV-->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="container" style="visibility:hidden">
+
+	<a href="{{PUB_CLICKTHROUGH}}" target="_blank"><div class="click"></div></a>
+   
+   
+   
+        <div class="copy1"></div>
+        <div class="copy2"></div>
+        <div class="copy3"></div>
+      
+   
+      
+    
+    
+    <div class="mytablet" style="visibility:hidden"><img src="computer.png" ></div>
+
+
+    <div id="legalpanel" style="visibility:hidden">
+       <div id="legaltext">$50 offer available on Virtual<br>Wallet, $200 offer available on<br>Virtual Wallet Performance, and<br>$300 offer available on Virtual<br>Wallet Performance Spend. All<br>offers require a qualifying Direct<br>Deposit and one payment via<br>PNC Online Bill Pay.</div>
+        <div id="legaltab">Roll over<br>for details</div>
+    </div>
+    <div class="footer">
+
+        <div class="logo"><img src="logo.png" ></div>
+         <div class="ctaHolder">
+        <div class="cta"><img src="applynow.png" ></div>
+        <div class="ctaarrow"><img src="arrow.png" ></div>
+        </div> 
+         <div class="mcLegal" ><img src="mcLegal.png"  ></div>
+    </div>
+
+</div>
+<script type="text/javascript" src="pnc_virtualwallet_160x600.js"></script><!--MAIN JS FILE-->
+</body>
+</html>

@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document 
+Test commit
+*/
+
+body {
+    background: #FFF;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.container {
+    width: 160px;
+    height: 600px;
+    background: #768a97;
+/*    border: 1px solid #115ba1;*/
+    overflow: hidden;
+    position: relative;
+
+}
+
+.click {
+    width: 160px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display:block;
+    z-index:500;
+   
+    cursor: pointer;
+}
+
+.footer {
+
+  width: 300px;
+    height: 164px;
+    top: 436px;
+    background: #475660;
+/*    border: 1px solid #115ba1;*/
+    overflow: hidden;
+    position: absolute;
+    /*visibility:hidden;*/
+   
+
+}
+
+.mytablet {
+
+       height: 97px;
+    width: 123px;
+    position: absolute;
+    top: 156px;
+    left:-4px;
+}
+.logo {
+  position:relative;
+  top: 60px;
+  
+     height:37px; 
+    width:160px;
+
+}
+
+/***** SPRITESHEET MASTERS *****/
+/*.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+}
+
+.sprite_copy0 {
+    background-image: url(copy0.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top:51px;
+    left:140px;
+    width:135px;
+    height:89px;
+}
+*/
+.copy1 {
+       position: absolute;
+    width: 160px;
+    height: 27px;
+    left: -5px;
+    top: 244px;
+    background-image: url(copy1.png);
+    background-repeat: no-repeat;
+    /* background-position: 0px -69px; */
+    visibility: hidden;
+    position: absolute;
+}
+
+.copy2 {
+       position: absolute;
+    width: 159px;
+    height: 48px;
+    top: 270px;
+    left: -5px;
+    background-image: url(copy2.png);
+    background-repeat: no-repeat;
+    /* background-position: 0px -69px; */
+    visibility: hidden;
+}
+
+.copy3 {
+        position: absolute;
+    width: 159px;
+    height: 60px;
+    top: 322px;
+    left: 1px;
+    background-image: url(copy3.png);
+    /* background-position: 0px -69px; */
+    visibility: hidden;
+}
+
+
+
+
+/*ELEMENTS*/
+
+
+#legalpanel {
+    width: 300px;
+    height: 161px;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    z-index:600;
+
+}
+
+#legaltext {
+    margin: 0px 0px 0px 0px;
+    width: 300px;
+    padding: 12px 8px;
+    height: 127px;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    line-height: 1.5;
+    color: #FFF;
+    background: #455661;
+    letter-spacing: .2px;
+/*
+    -webkit-box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+*/
+}
+
+#legaltab {
+    width: 83px;
+    height: 31px;
+    /*float: right;*/
+    margin: 0px 0px 0px 0px;
+    padding: 4px 0px 0px 0px;
+    font-family: Arial, sans-serif;
+    /*font-weight: bold;*/
+    font-size: 10px;
+    /*line-height: 19px;*/
+    text-align: center;
+    color: #FFF;
+    background: #455661;
+    border-radius: 0 0 3px 0px;
+    -moz-border-radius: 0 0 3px 0px;
+    -webkit-border-radius: 0 0 3px 0px;
+/*
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+*/
+    position: relative;
+    z-index:601;
+}
+
+.ctaHolder {
+     width: 112px;
+    height: 31px;
+    background: #FF8000;
+    position: relative;
+    top: -22px;
+    left: 23px;
+    /* opacity: 0; */
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+.cta {
+         width: 84px;
+    height: 15px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    /* background-position: -262px -108px; */
+}
+
+.ctaarrow {
+
+
+      width: 11px;
+    height: 15px;
+    /* background-position: -213px -2px; */
+    left: 95px;
+    position: relative;
+    top: -6px;
+
+}
+.mcLegal {
+    position: relative;
+    width: 300px;
+    height: 21px;
+    left: 0px;
+    top: 40px;
+  
+
+
+}
+

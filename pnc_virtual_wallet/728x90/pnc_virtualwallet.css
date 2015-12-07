@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background: #FFF;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.container {
+    width: 728px;
+    height: 90px;
+    background: #768a97;
+/*    border: 1px solid #115ba1;*/
+    overflow: hidden;
+    position: relative;
+
+}
+
+.click {
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display:block;
+    z-index:500;
+   
+    cursor: pointer;
+}
+
+.footer {
+
+    width: 224px;
+    height: 90px;
+    top: 0px;
+    left:503px;
+    background: #475660;
+/*    border: 1px solid #115ba1;*/
+    overflow: hidden;
+    position: absolute;
+    /*visibility:hidden;*/
+   
+
+}
+
+.mytablet {
+
+     height:90px; 
+    width:102px;
+    position: absolute;
+  top:-8px;
+    left: 102px ;
+
+}
+.logo {
+position:relative;
+ 
+      top: 51px;
+    left: 20px;
+   
+
+}
+
+/***** SPRITESHEET MASTERS *****/
+/*.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+}
+
+.sprite_copy0 {
+    background-image: url(copy0.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top:51px;
+    left:140px;
+    width:135px;
+    height:89px;
+}
+*/
+.copy1 {
+         position: absolute;
+    width: 117px;
+    height: 26px;
+    left: 209px;
+    top: 10px;
+    background-image: url(copy1.png);
+    background-repeat: no-repeat;
+    /* background-position: 0px -69px; */
+    visibility: hidden;
+    position: absolute;
+}
+
+.copy2 {
+      position: absolute;
+    width: 57px;
+    height: 26px;
+    top: 9px;
+    left: 333px;
+    background-image: url(copy2.png);
+    background-repeat: no-repeat;
+    /* background-position: 0px -69px; */
+    visibility: hidden;
+}
+
+.copy3 {
+        position: absolute;
+    width: 197px;
+    height: 33px;
+    top: 36px;
+    left: 209px;
+    background-image: url(copy3.png);
+    background-repeat: no-repeat;
+    /* background-position: 0px -69px; */
+    visibility: hidden;
+}
+
+
+
+/*ELEMENTS*/
+
+
+#legalpanel {
+    width: 465px;
+    height: 80px;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    z-index:600;
+    left:0px;
+   
+
+}
+
+#legaltext {
+    margin: 0px 0px 0px 0px;
+    width: 457px;
+    padding: 0px 8px;
+    height: 60px;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    line-height: 1.4;
+    left:0px;
+    color: #FFF;
+    background: #455661;
+     border-radius: 0 0 2px 0px;
+    -moz-border-radius: 0 0 2px 0px;
+    -webkit-border-radius: 0 0 2px 0px;
+/*
+    -webkit-box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+*/
+}
+
+#legaltab {
+    width: 100px;
+    height: 20px;
+    /*float: right;*/
+    margin: 0px 0px 0px 0px;
+    font-family: Arial, sans-serif;
+    /*font-weight: bold;*/
+    font-size: 10px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFF;
+    background: #455661;
+    border-radius: 0 0 3px 0px;
+    -moz-border-radius: 0 0 3px 0px;
+    -webkit-border-radius: 0 0 3px 0px;
+/*
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+*/
+    position: relative;
+    z-index:601;
+}
+
+.ctaHolder {
+       width: 105px;
+    height: 31px;
+    background: #FF8000;
+    position: relative;
+    top: -26px;
+    left: 20px;
+    /* opacity: 0; */
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+.cta {
+         width: 77px;
+    height: 11px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    /* background-position: -262px -108px; */
+}
+
+.ctaarrow {
+
+
+      width: 11px;
+    height: 15px;
+    /* background-position: -213px -2px; */
+    left: 90px;
+    position: relative;
+    top: -2px;
+
+}
+.mcLegal {
+         position: relative;
+    width: 300px;
+    height: 21px;
+    left: 44px;
+    bottom: -72px;
+  
+
+
+}
+
